@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: rgb(255,182,193);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* use multiple classes when the change is not too specific*/
+.odd.third {
+    font-size: 24px;
+}
+
+/* ids have high specificity, used for vastly different, individual styling*/
+.even#second {
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+.even#fourth {
+    background-color: rgb(149, 238, 149);
+    font-size: 24px;
+    font-weight: bold;
+}
