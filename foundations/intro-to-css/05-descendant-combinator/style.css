@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+
+/* Descendant combinations are separated by a space*/
+div .text {
+    background-color: rgb(243, 220, 47);
+    color: rgb(255,0,0);
+    font-size: 20px;
+    text-align: center;
+}
